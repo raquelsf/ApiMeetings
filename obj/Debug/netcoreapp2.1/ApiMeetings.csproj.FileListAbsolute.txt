@@ -1,0 +1,14 @@
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\bin\Debug\netcoreapp2.1\ApiMeetings.deps.json
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\bin\Debug\netcoreapp2.1\ApiMeetings.runtimeconfig.json
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\bin\Debug\netcoreapp2.1\ApiMeetings.runtimeconfig.dev.json
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\bin\Debug\netcoreapp2.1\ApiMeetings.dll
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\bin\Debug\netcoreapp2.1\ApiMeetings.pdb
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.csprojAssemblyReference.cache
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.csproj.CoreCompileInputs.cache
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.RazorAssemblyInfo.cache
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.RazorAssemblyInfo.cs
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.AssemblyInfoInputs.cache
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.AssemblyInfo.cs
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.RazorTargetAssemblyInfo.cache
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.dll
+D:\Projetos\ApiMeetings\ApiMeetings\ApiMeetings\obj\Debug\netcoreapp2.1\ApiMeetings.pdb
