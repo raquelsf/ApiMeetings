@@ -20,7 +20,7 @@
     "ApiMeetings": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api",
+      "launchUrl": "api/values",
       "applicationUrl": "https://192.168.0.108:5001;http://192.168.0.108:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

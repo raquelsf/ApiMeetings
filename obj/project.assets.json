@@ -12529,23 +12529,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\raquel.freitas\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\raake\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\ApiMeetings\\ApiMeetings\\ApiMeetings\\ApiMeetings.csproj",
+      "projectUniqueName": "E:\\2020\\Projetos\\ApiMeetings\\ApiMeetings.csproj",
       "projectName": "ApiMeetings",
-      "projectPath": "D:\\Projetos\\ApiMeetings\\ApiMeetings\\ApiMeetings\\ApiMeetings.csproj",
-      "packagesPath": "C:\\Users\\raquel.freitas\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\ApiMeetings\\ApiMeetings\\ApiMeetings\\obj\\",
+      "projectPath": "E:\\2020\\Projetos\\ApiMeetings\\ApiMeetings.csproj",
+      "packagesPath": "C:\\Users\\raake\\.nuget\\packages\\",
+      "outputPath": "E:\\2020\\Projetos\\ApiMeetings\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\raquel.freitas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\raake\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12581,6 +12577,7 @@
             "version": "[2.1.2, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -12591,10 +12588,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
