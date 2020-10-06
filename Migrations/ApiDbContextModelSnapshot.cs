@@ -8,43 +8,62 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace ApiMeetings.Migrations
 {
-    [DbContext(typeof(ApiDbContext))]
-    partial class ApiDbContextModelSnapshot : ModelSnapshot
+  [DbContext(typeof(ApiDbContext))]
+  partial class ApiDbContextModelSnapshot : ModelSnapshot
+  {
+    protected override void BuildModel(ModelBuilder modelBuilder)
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
-        {
 #pragma warning disable 612, 618
-            modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+      modelBuilder
+          .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
+          .HasAnnotation("Relational:MaxIdentifierLength", 128)
+          .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ApiMeetings.Model.RoomModel", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd();
+      modelBuilder.Entity("ApiMeetings.Model.RoomModel", b =>
+          {
+            b.Property<Guid>("Id")
+                      .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(100);
+            b.Property<string>("Description")
+                      .IsRequired()
+                      .HasMaxLength(100);
 
-                    b.Property<int>("Floor");
+            b.Property<int>("Floor");
 
-                    b.Property<bool>("HasPainting");
+            b.Property<bool>("HasPainting");
 
-                    b.Property<bool>("HasTV");
+            b.Property<bool>("HasTV");
 
-                    b.Property<int>("MaxPeople");
+            b.Property<int>("MaxPeople");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(30);
+            b.Property<string>("Name")
+                      .IsRequired()
+                      .HasMaxLength(30);
 
-                    b.HasKey("Id");
+            b.HasKey("Id");
 
-                    b.ToTable("Rooms");
-                });
+            b.ToTable("Rooms");
+          });
+      modelBuilder.Entity("ApiMeetings.Model.ReservationModel", b =>
+      {
+        b.Property<Guid>("Id")
+            .ValueGeneratedOnAdd(); 
+
+        b.Property<Guid>("RoomId")
+            .ValueGeneratedOnAdd();
+
+        b.Property<Guid>("UserId")
+            .ValueGeneratedOnAdd();
+
+        b.Property<DateTime>("DateInitial");
+
+        b.Property<DateTime>("DateEnd");
+
+        b.HasKey("Id");
+
+        b.ToTable("Rooms");
+      });
 #pragma warning restore 612, 618
-        }
     }
+  }
 }

@@ -10,5 +10,6 @@ namespace ApiMeetings.Model
     }
 
     public DbSet<RoomModel> Rooms { get; set; }
+    public DbSet<ReservationModel> Reservations { get; set; }
   }
 }
